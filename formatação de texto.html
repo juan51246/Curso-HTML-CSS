@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="html5.ico" type="image/x-icon">
+    <title>Formatação do Texto</title>
+</head>
+<style>
+    body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+        justify-content: space-between;
+        font-size: 40px;
+    }
+
+    mark {
+        background-color: aqua;
+    }
+
+    code {
+        text-decoration: none;
+        font-size: x-large;
+        color: brown;
+    }
+</style>
+
+<body>
+    <h1 class="h1">PRINCIPAIS FORMATAÇÕES</h1>
+    <h2>Negrito/Destaque</h2>
+    <p>Nessa frase temos um <b>Termo em Negrito</b> usando a tag "B" (Não semantica e formal)</p>
+    <p>Nessa frase temos um <strong>Termo em Destaque</strong> usando a tag Strong (Semantica)</p>
+    <p>Para colocar o um termo em italico se usa o Termo Wrap With Abbreviation</p>
+    <p>Aqui temos um <i>Texto em italico</i></p>
+    <p>exite outra maneira, usando a tag "em"</p>
+    <p>Aqui temos um <em>Texto em italic</em>o</p>
+    <h2>Para o HTML as duas tags funcionam, mas a tag EM atribui semantica, enquanto a tag I, é mais uma questão de
+        forma.</h2>
+    <p>Podemos usar a tag MARK para fazer uma marcação de um texto</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <mark class="mark">Dignissimos
+            sunt placeat</mark> excepturi esse ab a, eveniet asperiores quisquam doloribus recusandae! Fugit
+        perspiciatis corrupti tenetur in mollitia? Necessitatibus placeat ipsum odio.</p>
+
+    <h2>Texto Grande e Pequeno</h2>
+    <h3><mark class="mark">A tag BIG não se usa mais, esta obsoleto, mas a tag small não</mark></h3>
+    <h3>BIG</h3>
+    <p>Lorem ipsum dolor, sit amet <big>consectetur adipisicing elit</big>. Corporis soluta minus et, temporibus ullam
+        sapiente necessitatibus. Eius non facilis quibusdam temporibus! Repellendus natus voluptatem sapiente sit qui
+        suscipit necessitatibus illum.</p>
+    <h3>SMALL</h3>
+    <p>Lorem ipsum dolor sit amet <small>consectetur adipisicing elit</small>. Numquam rerum iusto itaque minus
+        incidunt, odio obcaecati quo recusandae voluptate molestiae vero aliquid accusantium ipsa quibusdam voluptatibus
+        in, nemo dolor doloribus.</p>
+
+    <h2>Texto Inserido e Excluido</h2>
+    <p>Texto Excluido se usa a tag "DEL"</p>
+    <p><del>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus beatae amet incidunt omnis nemo ipsum nisi
+            nobis quae, soluta veniam reprehenderit doloribus harum ea sed nam id aperiam voluptates ipsam.</del></p>
+    <p>Texto incluido se usa a tag "INS"</p>
+    <p><ins>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cupiditate quia optio, facere aperiam
+            excepturi vitae eligendi. Necessitatibus beatae unde quidem saepe ipsam magnam, similique officia aperiam
+            eum libero dolore!</ins></p>
+    <h2>Para colocar codigos se usa tag CODE</h2>
+    <p>Por exemplo</p>
+    <p>
+        <code class="code">
+            #include &lt;iostream&gt; <br>
+            <br>
+            using namespace std; <br>
+            <br>
+            int main(){ <br>
+                <br>
+                return 0; <br>
+            <br>
+            }
+        </code>
+    </p>
+</body>
+
+</html>
