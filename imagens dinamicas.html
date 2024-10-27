@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="html5.ico" type="image/x-icon">
+    <title>Imagens Dinamicas</title>
+</head>
+
+<body>
+    <h1>Nesse capitulo vamos aprender a criar imagens Dinamicas</h1>
+    <p>As imagens Dinamicas se ajustam de acordo com a quantidade de pixel que existem na tela que esta sendo exibido
+    </p>
+    <picture>
+        <!--É importante sempre usar pelo menos 50px de excedente para facilitar a interação-->
+        <!--A tag Source media type usa o tamanho da tela para regular a imagem a ser exibida, dessa forma é possivel manter a proporcionalidade tanto em Desktop Quanto Mobile-->
+        <source media="(max-width: 900px)" srcset="gimp/p.png">
+        <source media="(max-width: 1200px)" srcset="gimp/m.png">
+        <img src="gimp/g.png" alt="Descrição da Imagem">
+    </picture>
+</body>
+
+</html>
