@@ -7,3 +7,4 @@ Este repositório contém os materiais e exercícios do curso de HTML e CSS.
 * Conhecimento básico de computadores
 * Um editor de código (ex: Visual Studio Code, Sublime Text)
 * Um navegador web (ex: Chrome, Firefox)
+* Um exibidor de HTML
